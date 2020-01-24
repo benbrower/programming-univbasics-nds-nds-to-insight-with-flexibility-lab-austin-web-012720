@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
 
   while dir_index < source.size do
     result << (source[dir_index][:name],source[dir_index][:title])
-    dir_index += 1     
+    dir_index += 1
   end
   result
 end
