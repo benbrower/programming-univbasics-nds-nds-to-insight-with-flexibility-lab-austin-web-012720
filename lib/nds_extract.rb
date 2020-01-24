@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
 
   while dir_index < source.size do
     # result << (source[dir_index][:name],source[dir_index][:movies])
-    result << movies_with_director_key(source[dir_index][:name], source[dir_index][:name][:movies])
+    result << movies_with_director_key(source[dir_index][:name], source[dir_index][:movies])
     dir_index += 1
   end
   result
