@@ -81,9 +81,9 @@ def gross_per_studio(collection)
     studio = collection[collection_index][:studio]
     result[studio] += collection[collection_index][:worldwide_gross]
 
-    collection_index += 1    
+    collection_index += 1
   end
-  
+
   result
 
 end
